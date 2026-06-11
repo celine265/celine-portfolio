@@ -112,13 +112,13 @@ export const analyticsProjects = [
 ];
 
 export const contactLinks = [
-  { label: 'GitHub', icon: FiGithub, url: 'https://github.com/celinabulyar' },
+  { label: 'GitHub', icon: FiGithub, url: 'https://github.com/celine265' },
   {
     label: 'LinkedIn',
     icon: FiLinkedin,
-    url: 'https://linkedin.com/in/celinabulyar',
+    url: 'https://www.linkedin.com/in/celina-bulyar-59a6453a5',
   },
-  { label: 'Email', icon: FiMail, url: 'mailto:celina@example.com' },
+  { label: 'Email', icon: FiMail, url: 'mailto:bulyarcelina@gmail.com' },
 ];
 
 export const navLinks = [
