@@ -14,7 +14,7 @@ export const personalInfo = {
   name: 'Celina Bulyar',
   titles: ['Web Developer', 'Flutter Developer', 'Aspiring Data Analyst'],
   intro:
-    'Building digital solutions that solve real-world problems and create positive community impact.',
+    'Building technology solutions that empower communities, improve financial inclusion, and transform data into meaningful insights. Passionate about Web Development, Flutter Development, and Data Analytics.',
   bio: 'I am a software developer and aspiring data analyst from Kenya passionate about building digital solutions that solve real-world problems and create positive community impact.',
   cvUrl: '#',
 };

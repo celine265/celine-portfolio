@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { personalInfo } from '../constants/data';
-import heroImg from '../assets/hero.png';
+import heroImg from '../assets/celina.jpg';
 
 export default function Hero() {
   return (
@@ -122,17 +122,17 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.3 }}
         >
           <div className="relative">
-            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-br from-accent/20 to-accent/5 p-1">
-              <div className="w-full h-full rounded-full overflow-hidden bg-surface-700">
+            <div className="w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-gradient-to-br from-blue-500/30 to-purple-500/20 p-2 shadow-2xl">
+              <div className="w-full h-full rounded-full overflow-hidden border-4 border-blue-500/30">
                 <img
                   src={heroImg}
-                  alt={personalInfo.name}
+                  alt="Celina Bulyar"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 w-20 h-20 rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center backdrop-blur-sm">
-              <span className="text-accent text-2xl font-bold">3+</span>
+              <span className="text-accent text-2xl font-bold">5+</span>
             </div>
           </div>
         </motion.div>
